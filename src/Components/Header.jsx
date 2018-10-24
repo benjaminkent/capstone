@@ -4,8 +4,8 @@ class Header extends Component {
   render() {
     return (
       <>
-        <header>
-          <h1>ManDate</h1>
+        <header className="header">
+          <h1 className="logo">ManDate</h1>
           <i class="fas fa-user" />
         </header>
       </>

@@ -1,3 +1,11 @@
-h1 {
-  color: purple;
+.header {
+  margin: 0;
+  background-color: orange;
+  padding: 1rem;
+
+  .logo {
+    text-align: center;
+    top: 0.5rem;
+    right: 1rem;
+  }
 }
