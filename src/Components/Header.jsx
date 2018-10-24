@@ -6,7 +6,7 @@ class Header extends Component {
       <>
         <header className="header">
           <h1 className="logo">ManDate</h1>
-          <i class="fas fa-user" />
+          <i className="fas fa-user" />
         </header>
       </>
     )

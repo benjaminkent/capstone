@@ -1,11 +1,21 @@
 .header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   margin: 0;
-  background-color: orange;
-  padding: 1rem;
+  background-color: #ffbe0b;
+  padding: 1.2rem 0;
+  color: #363d5b;
 
   .logo {
-    text-align: center;
-    top: 0.5rem;
-    right: 1rem;
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+
+  .fa-user {
+    padding-top: 0.6rem;
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
   }
 }
