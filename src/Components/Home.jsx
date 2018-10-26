@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Header from './Header'
+import Header from './SubComponents/Header'
 
 class Home extends Component {
   render() {
