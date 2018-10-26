@@ -6,8 +6,15 @@ class Header extends Component {
       <>
         <header className="header">
           <div className="logo">
-            <h1 className="logo-upper">Find a Bro</h1>
-            <p className="logo-lower">Expand Your Wolfpack</p>
+            <img
+              src="./images/wolf-logo.png"
+              className="logo-image"
+              alt="wolf logo"
+            />
+            <div className="logo-words-container">
+              <h1 className="logo-upper">Find a Bro</h1>
+              <p className="logo-lower">Expand Your Wolfpack</p>
+            </div>
           </div>
           <i class="fas fa-question-circle directions" />
           <i className="fas fa-user directions" />

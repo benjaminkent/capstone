@@ -10,23 +10,38 @@
   .logo {
     width: 200px;
     margin: 0;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 0;
     flex: 15;
+    display: flex;
+    line-height: 1.5rem;
+  }
+
+  .logo-words-container {
+    padding: 0.5rem 0 0 0.5rem;
+  }
+
+  .logo-image {
+    height: 3rem;
+    color: blue;
+    padding-top: 0.2rem;
   }
 
   .logo-upper {
     font-family: 'Arvo', serif;
     margin: 0;
+    font-size: 1.5rem;
   }
 
   .logo-lower {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-size: 0.8rem;
   }
 
   .directions {
-    padding-top: 1rem;
-    padding-right: 1.5rem;
+    padding-top: 1.3rem;
+    padding-right: 1rem;
     font-size: 1.2rem;
     flex: 1;
   }
