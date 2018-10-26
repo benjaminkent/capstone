@@ -2,20 +2,32 @@
   position: fixed;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   margin: 0;
   background-color: $primary-mustard;
-  padding: 1.2rem 0;
+  padding: 0.5rem 0;
   color: $primary-black;
 
   .logo {
+    width: 200px;
     margin: 0;
     padding-left: 1.5rem;
+    flex: 15;
   }
 
-  .fa-user {
-    padding-top: 0.6rem;
+  .logo-upper {
+    font-family: 'Arvo', serif;
+    margin: 0;
+  }
+
+  .logo-lower {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+  .directions {
+    padding-top: 1rem;
     padding-right: 1.5rem;
     font-size: 1.2rem;
+    flex: 1;
   }
 }

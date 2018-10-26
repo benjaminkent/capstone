@@ -5,8 +5,12 @@ class Header extends Component {
     return (
       <>
         <header className="header">
-          <h1 className="logo">ManDate</h1>
-          <i className="fas fa-user" />
+          <div className="logo">
+            <h1 className="logo-upper">Find a Bro</h1>
+            <p className="logo-lower">Expand Your Wolfpack</p>
+          </div>
+          <i class="fas fa-question-circle directions" />
+          <i className="fas fa-user directions" />
         </header>
       </>
     )
