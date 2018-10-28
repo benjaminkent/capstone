@@ -83,6 +83,11 @@ class MainPage extends Component {
             <p>Yes</p>
           </article>
         </section>
+
+        <section className="meme-section">
+          <h2 className="about-user">Sense of Humor</h2>
+          <div className="about-underline" />
+        </section>
       </>
     )
   }
