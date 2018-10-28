@@ -1,0 +1,75 @@
+.user-image-section {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff0c9;
+  font-family: 'Poppins', sans-serif;
+
+  .current-matches {
+    align-self: flex-start;
+    padding-left: 2rem;
+    background-color: $primary-black;
+    color: $primary-mustard;
+    width: 100%;
+    box-shadow: 0px 0.5px 5px $primary-black;
+  }
+
+  .current-matches h3 {
+    margin: 0.5rem 0;
+    padding-top: 0.3rem;
+    font-family: 'Arvo', serif;
+    text-decoration: underline;
+  }
+
+  .name {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .name p {
+    padding: 0 2rem;
+    color: $primary-black;
+    font-weight: bold;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .fa-arrow-left {
+      padding-right: 0.5rem;
+      color: $primary-black;
+    }
+
+    .fa-arrow-right {
+      padding-left: 0.5rem;
+      color: $primary-black;
+    }
+  }
+
+  .user-image {
+    height: 25rem;
+    border-radius: 10px;
+  }
+
+  .thumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0;
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .fa-thumbs-down {
+    color: #ff3a3a;
+  }
+
+  .fa-thumbs-up {
+    color: #04e762;
+  }
+}
