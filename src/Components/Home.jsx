@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
 import Header from './SubComponents/Header'
-import MainImage from './SubComponents/MainImage'
+import MainPage from './SubComponents/MainPage'
 
 class Home extends Component {
   render() {
     return (
       <>
         <Header />
-        <MainImage />
+        <MainPage />
       </>
     )
   }
