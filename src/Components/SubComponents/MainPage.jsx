@@ -32,11 +32,15 @@ class MainPage extends Component {
           <div className="about-underline" />
           <article className="about-questions">
             <p>What do you like to drink?</p>
-            <p>Beer</p>
+            <p>Whiskey, Beer, Wine</p>
           </article>
           <article className="about-questions">
             <p>Do you smoke?</p>
-            <p>No</p>
+            <p>Sometimes</p>
+          </article>
+          <article className="about-questions">
+            <p>What do you smoke?</p>
+            <p>Cigars</p>
           </article>
           <article className="about-questions">
             <p>How do you shave?</p>
