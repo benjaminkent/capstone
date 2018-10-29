@@ -1,9 +1,12 @@
 $primary-black: #363d5b;
 $primary-mustard: #ffbe0b;
+$poppins: 'Poppins', sans-serif;
+$arvo: 'Arvo', serif;
 
 @import url('https://fonts.googleapis.com/css?family=Arvo:700|Poppins:300');
 @import 'header';
 @import 'mainpage';
+@import 'footer';
 
 html {
   font-size: 17px;
