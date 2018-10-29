@@ -95,13 +95,8 @@ class MainPage extends Component {
             <img className="meme" src="./images/vampire.jpg" alt="meme" />
             <img className="meme" src="./images/always-sunny.jpg" alt="meme" />
             <img className="meme" src="./images/bank-account.jpg" alt="meme" />
-            <img className="meme" src="./images/break-up.jpg" alt="meme" />
-            <img className="meme" src="./images/gamer.jpg" alt="meme" />
             <img className="meme" src="./images/google-loser.png" alt="meme" />
-            <img className="meme" src="./images/oreo.jpg" alt="meme" />
-            <img className="meme" src="./images/password.jpg" alt="meme" />
-            <img className="meme" src="./images/sandwich.jpg" alt="meme" />
-            <img className="meme" src="./images/stonehenge.jpg" alt="meme" />
+            <img className="meme" src="./images/break-up.jpg" alt="meme" />
           </div>
         </section>
       </>

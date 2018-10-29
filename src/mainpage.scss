@@ -83,6 +83,8 @@
 .about-user {
   font-family: 'Arvo', serif;
   margin: 0;
+  align-self: flex-start;
+  padding-bottom: 0.5rem;
 }
 
 .about-section-container {
@@ -110,12 +112,14 @@
 .meme-section-container {
   padding: 1rem;
   color: $primary-black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .meme {
   height: 14rem;
-  border: 1px solid $primary-black;
+  border: 1px solid $primary-mustard;
   border-radius: 10px;
-  padding: 0;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
 }
