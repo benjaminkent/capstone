@@ -16,12 +16,14 @@ class Header extends Component {
               <p className="logo-lower">Expand Your Wolfpack</p>
             </div>
           </div>
-          <a href="#" title="About Find a Bro" className="header-anchor">
-            <i className="fas fa-question-circle directions" />
-          </a>
-          <a href="#" title="Edit Your Profile" className="header-anchor">
-            <i className="fas fa-user directions" />
-          </a>
+          <div className="directions">
+            <a href="#" title="About Find a Bro" className="header-anchor">
+              <i className="fas fa-question-circle" />
+            </a>
+            <a href="#" title="Edit Your Profile" className="header-anchor">
+              <i className="fas fa-user" />
+            </a>
+          </div>
         </header>
       </>
     )

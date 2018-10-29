@@ -6,7 +6,6 @@
   background-color: $primary-mustard;
   padding: 0.5rem 0;
   color: $primary-black;
-  // box-shadow: 0px 0.5px 5px $primary-mustard;
 
   .logo {
     width: 200px;
@@ -41,10 +40,13 @@
   }
 
   .directions {
-    padding-top: 1.3rem;
+    display: flex;
+    padding-right: 2rem;
+    padding-top: 1.2rem;
+  }
+
+  .directions a:first-child {
     padding-right: 1rem;
-    font-size: 1.2rem;
-    flex: 1;
   }
 
   .header-anchor {
