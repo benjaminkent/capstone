@@ -112,6 +112,9 @@
 .meme-section-container {
   padding: 1rem;
   color: $primary-black;
+}
+
+.meme-image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,4 +125,39 @@
   border: 1px solid $primary-mustard;
   border-radius: 10px;
   margin: 0 0 0.5rem 0;
+}
+
+@media (min-width: 700px) {
+  .main-page-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .meme-image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .about-section-container {
+    padding-top: 5rem;
+    height: 100%;
+  }
+
+  .meme-section-container {
+    padding-top: 5rem;
+  }
+
+  .user-section {
+    flex: 1;
+  }
+
+  .about-section {
+    flex: 1;
+    z-index: -1;
+  }
+
+  .humor-section {
+    flex: 1;
+  }
 }
