@@ -20,7 +20,7 @@ class UserEdit extends Component {
               <div className="edit-image-container">
                 <p className="upload-image-text">Upload an Image, Brother</p>
                 <img
-                  className="user-image"
+                  className="edit-user-image"
                   src="./images/beard.png"
                   alt="user"
                 />
@@ -36,135 +36,310 @@ class UserEdit extends Component {
               </p>
               <div className="about-underline" />
               <fieldset className="about-questions">
-                <p>What do you like to drink?</p>
+                <p className="question">What is your favorite drink?</p>
                 <div className="edit-answers">
                   <label>whiskey</label>
-                  <input type="radio" name="drink" value="whiskey" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="drink"
+                    value="whiskey"
+                  />
                   <label>beer</label>
-                  <input type="radio" name="drink" value="beer" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="drink"
+                    value="beer"
+                  />
                   <label>wine</label>
-                  <input type="radio" name="drink" value="wine" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="drink"
+                    value="wine"
+                  />
                   <label>other</label>
-                  <input type="radio" name="drink" value="other" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="drink"
+                    value="other"
+                  />
                   <label>non-drinker</label>
-                  <input type="radio" name="drink" value="non-drinker" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="drink"
+                    value="non-drinker"
+                  />
                 </div>
               </fieldset>
               <article className="about-questions">
-                <p>What do you smoke?</p>
+                <p className="question">What do you smoke?</p>
                 <div className="edit-answers">
                   <label>cigarettes</label>
-                  <input type="radio" name="drink" value="cigarettes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="smoke"
+                    value="cigarettes"
+                  />
                   <label>cigars</label>
-                  <input type="radio" name="drink" value="cigars" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="smoke"
+                    value="cigars"
+                  />
                   <label>vape</label>
-                  <input type="radio" name="drink" value="vape" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="smoke"
+                    value="vape"
+                  />
                   <label>other</label>
-                  <input type="radio" name="drink" value="other" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="smoke"
+                    value="other"
+                  />
                   <label>non-smoker</label>
-                  <input type="radio" name="drink" value="non-smoker" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="smoke"
+                    value="non-smoker"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>How do you shave?</p>
+                <p className="question">How do you shave?</p>
                 <div className="edit-answers">
                   <label>safety razor</label>
-                  <input type="radio" name="drink" value="safety razor" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="shave"
+                    value="safety razor"
+                  />
                   <label>straight razor</label>
-                  <input type="radio" name="drink" value="straight razor" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="shave"
+                    value="straight razor"
+                  />
                   <label>regular ass razor</label>
-                  <input type="radio" name="drink" value="regular ass razor" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="shave"
+                    value="regular ass razor"
+                  />
                   <label>other</label>
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you workout?</p>
+                <p className="question">Do you workout?</p>
                 <div className="edit-answers">
                   <label>often</label>
-                  <input type="radio" name="drink" value="often" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="workout"
+                    value="often"
+                  />
                   <label>sometimes</label>
-                  <input type="radio" name="drink" value="sometimes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="workout"
+                    value="sometimes"
+                  />
                   <label>never</label>
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you have kids?</p>
+                <p className="question">Do you have kids?</p>
                 <div className="edit-answers">
                   <label>yes</label>
-                  <input type="radio" name="drink" value="yes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="kids"
+                    value="yes"
+                  />
                   <label>no</label>
-                  <input type="radio" name="drink" value="no" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="kids"
+                    value="no"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you have pets?</p>
+                <p className="question">Do you have pets?</p>
                 <div className="edit-answers">
                   <label>dog</label>
-                  <input type="radio" name="drink" value="dog" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="pets"
+                    value="dog"
+                  />
                   <label>cat</label>
-                  <input type="radio" name="drink" value="cat" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="pets"
+                    value="cat"
+                  />
                   <label>lizard</label>
-                  <input type="radio" name="drink" value="lizard" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="pets"
+                    value="lizard"
+                  />
                   <label>other</label>
-                  <input type="radio" name="drink" value="other" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="pets"
+                    value="other"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you like guns?</p>
+                <p className="question">Do you like guns?</p>
                 <div className="edit-answers">
                   <label>yes</label>
-                  <input type="radio" name="drink" value="yes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="guns"
+                    value="yes"
+                  />
                   <label>no</label>
-                  <input type="radio" name="drink" value="no" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="guns"
+                    value="no"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>Are you single?</p>
+                <p className="question">Are you single?</p>
                 <div className="edit-answers">
                   <label>yes</label>
-                  <input type="radio" name="drink" value="yes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="single"
+                    value="yes"
+                  />
                   <label>no</label>
-                  <input type="radio" name="drink" value="no" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="single"
+                    value="no"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you play video games?</p>
+                <p className="question">Do you play video games?</p>
                 <div className="edit-answers">
                   <label>often</label>
-                  <input type="radio" name="drink" value="often" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="video games"
+                    value="often"
+                  />
                   <label>sometimes</label>
-                  <input type="radio" name="drink" value="sometimes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="video games"
+                    value="sometimes"
+                  />
                   <label>never</label>
-                  <input type="radio" name="drink" value="never" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="video games"
+                    value="never"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you play board games?</p>
+                <p className="question">Do you play board games?</p>
                 <div className="edit-answers">
                   <label>often</label>
-                  <input type="radio" name="drink" value="often" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="board games"
+                    value="often"
+                  />
                   <label>sometimes</label>
-                  <input type="radio" name="drink" value="sometimes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="board games"
+                    value="sometimes"
+                  />
                   <label>never</label>
-                  <input type="radio" name="drink" value="never" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="board games"
+                    value="never"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you like sports?</p>
+                <p className="question">Do you like sports?</p>
                 <div className="edit-answers">
                   <label>yes</label>
-                  <input type="radio" name="drink" value="yes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="sports"
+                    value="yes"
+                  />
                   <label>no</label>
-                  <input type="radio" name="drink" value="no" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="sports"
+                    value="no"
+                  />
                 </div>
               </article>
               <article className="about-questions">
-                <p>Do you like outdoor activities?</p>
+                <p className="question">Do you like outdoor activities?</p>
                 <div className="edit-answers">
                   <label>yes</label>
-                  <input type="radio" name="drink" value="yes" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="outdoor activities"
+                    value="yes"
+                  />
                   <label>no</label>
-                  <input type="radio" name="drink" value="no" />
+                  <input
+                    className="radio"
+                    type="radio"
+                    name="outdoor activities"
+                    value="no"
+                  />
                 </div>
               </article>
             </form>
@@ -203,6 +378,9 @@ class UserEdit extends Component {
                   alt="meme"
                 />
               </div>
+            </div>
+            <div>
+              <button className="submit">Submit Profile</button>
             </div>
           </section>
         </div>

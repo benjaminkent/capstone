@@ -10,7 +10,7 @@ label {
 }
 
 .edit-name input {
-  margin: 1rem 2rem;
+  margin: 1rem auto;
   color: $primary-black;
   font-weight: 300;
   font-family: $arvo;
@@ -26,6 +26,10 @@ label {
 
 .edit-name input::placeholder {
   color: #afafaf;
+}
+
+.edit-user-image {
+  width: 80%;
 }
 
 .edit-image-container {
@@ -45,8 +49,54 @@ label {
   flex-direction: column;
 }
 
+input.radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid $primary-black;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+  background-color: white;
+}
+
+input.radio:checked {
+  border: 6px solid $primary-mustard;
+}
+
 .about-user-info {
   font-family: $poppins;
   margin: 0;
   padding-bottom: 0.5rem;
+}
+
+.question {
+  font-size: 1rem;
+}
+
+.submit {
+  margin: 1rem auto 3rem auto;
+  display: flex;
+  justify-content: center;
+  font-family: $arvo;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: $primary-mustard;
+  color: $primary-black;
+  border: 1px solid $primary-black;
+}
+
+.submit:focus {
+  outline-color: $primary-mustard;
+}
+
+.submit:hover {
+  transition: 0.2s all ease-in-out;
+  color: $primary-mustard;
+  background-color: $primary-black;
 }
