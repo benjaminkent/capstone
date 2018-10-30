@@ -9,6 +9,11 @@ class UserEdit extends Component {
             <div className="user-image-container">
               <div className="current-matches">
                 <h3>Budding Brolationships</h3>
+                <i className="fas fa-exclamation-circle notification" />
+              </div>
+              <div className="cancel-edit">
+                <i class="fas fa-arrow-left cancel-edit-back" />
+                <p>Cancel Edit</p>
               </div>
               <div className="edit-name">
                 <input

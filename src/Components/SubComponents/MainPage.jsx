@@ -9,6 +9,7 @@ class MainPage extends Component {
             <div className="user-image-container">
               <div className="current-matches">
                 <h3>Budding Brolationships</h3>
+                <i className="fas fa-exclamation-circle notification" />
               </div>
               <div className="name">
                 <p>Ben</p>
