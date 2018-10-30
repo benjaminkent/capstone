@@ -33,6 +33,8 @@
     padding: 0 2rem;
     color: $primary-black;
     font-weight: 300;
+    font-family: $arvo;
+    font-size: 1.3rem;
   }
 
   .image-container {
@@ -128,15 +130,34 @@
 }
 
 @media (min-width: 700px) {
+  .meme-image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .user-image-container .name p:first-child {
+    margin-left: 10rem;
+  }
+
+  .user-image-container .name p:last-child {
+    margin-right: 10rem;
+  }
+}
+
+@media (min-width: 1000px) {
   .main-page-content {
     display: flex;
     justify-content: center;
   }
 
-  .meme-image-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .user-image-container {
+    height: 100%;
+  }
+
+  .current-matches {
+    margin-bottom: 1rem;
   }
 
   .about-section-container {
@@ -149,7 +170,8 @@
   }
 
   .user-section {
-    flex: 1;
+    flex: 1.5;
+    z-index: -1;
   }
 
   .about-section {
@@ -158,6 +180,34 @@
   }
 
   .humor-section {
-    flex: 1;
+    flex: 2;
+  }
+
+  .user-image-container .name p:first-child {
+    margin-left: 1rem;
+  }
+
+  .user-image-container .name p:last-child {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .user-image-container .name p:first-child {
+    margin-left: 3rem;
+  }
+
+  .user-image-container .name p:last-child {
+    margin-right: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .user-image-container .name p:first-child {
+    margin-left: 4rem;
+  }
+
+  .user-image-container .name p:last-child {
+    margin-right: 4rem;
   }
 }
