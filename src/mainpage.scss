@@ -83,7 +83,7 @@
 }
 
 .about-user {
-  font-family: 'Arvo', serif;
+  font-family: $arvo;
   margin: 0;
   align-self: flex-start;
   padding-bottom: 0.5rem;
@@ -106,8 +106,9 @@
     margin: 0;
   }
 
-  .about-questions p:last-child {
+  .about-questions p:first-child {
     font-weight: 700;
+    font-family: $arvo;
   }
 }
 
