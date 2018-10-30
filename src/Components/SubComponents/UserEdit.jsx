@@ -34,7 +34,6 @@ class UserEdit extends Component {
               <p className="about-user-info">
                 Answer a few questions about yourself
               </p>
-
               <div className="about-underline" />
               <fieldset className="about-questions">
                 <p>What do you like to drink?</p>
@@ -174,6 +173,7 @@ class UserEdit extends Component {
           <section className="humor-section">
             <div className="meme-section-container">
               <h2 className="about-user">Sense of Humor</h2>
+              <p className="about-user-info">Pick your 5 favorite memes</p>
               <div className="about-underline" />
               <div className="meme-image-container">
                 <img className="meme" src="./images/vampire.jpg" alt="meme" />
@@ -193,6 +193,15 @@ class UserEdit extends Component {
                   alt="meme"
                 />
                 <img className="meme" src="./images/break-up.jpg" alt="meme" />
+                <img className="meme" src="./images/gamer.jpg" alt="meme" />
+                <img className="meme" src="./images/oreo.jpg" alt="meme" />
+                <img className="meme" src="./images/password.jpg" alt="meme" />
+                <img className="meme" src="./images/sandwich.jpg" alt="meme" />
+                <img
+                  className="meme"
+                  src="./images/stonehenge.jpg"
+                  alt="meme"
+                />
               </div>
             </div>
           </section>
