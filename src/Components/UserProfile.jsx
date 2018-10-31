@@ -19,7 +19,7 @@ class UserProfile extends Component {
               <div className="profile-name-container">
                 <p className="profile-name">Steve</p>
                 <div className="user-edit">
-                  <Link className="link-no-underline" to="/edit">
+                  <Link to="/edit" className="link-no-underline">
                     <p className="edit">Edit Profile</p>
                   </Link>
                   <i class="fas fa-arrow-right edit-arrow" />
