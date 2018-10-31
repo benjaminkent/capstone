@@ -20,7 +20,11 @@ class Header extends Component {
             </div>
           </div>
           <div className="directions">
-            <Link to="/" title="About Find a Bro" className="header-anchor">
+            <Link
+              to="/about"
+              title="About Find a Bro"
+              className="header-anchor"
+            >
               <i className="fas fa-question-circle" />
             </Link>
             <Link
