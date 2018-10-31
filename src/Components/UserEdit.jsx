@@ -11,10 +11,6 @@ class UserEdit extends Component {
         <div className="main-page-content">
           <section className="user-section">
             <div className="user-image-container">
-              <div className="current-matches">
-                <h3>Budding Brolationships</h3>
-                <i className="fas fa-exclamation-circle notification" />
-              </div>
               <div className="cancel-edit">
                 <Link
                   className="link-no-underline cancel-edit"
