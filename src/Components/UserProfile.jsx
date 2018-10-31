@@ -15,7 +15,9 @@ class UserProfile extends Component {
                 <h3>Budding Brolationships</h3>
                 <i className="fas fa-exclamation-circle notification" />
               </div>
-              <h2 className="your-profile">Your Profile</h2>
+              <Link className="back" to="/">
+                <i className="fas fa-caret-left back" />
+              </Link>
               <div className="profile-name-container">
                 <p className="profile-name">Steve</p>
                 <div className="user-edit">

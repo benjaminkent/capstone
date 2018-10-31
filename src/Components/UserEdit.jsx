@@ -49,244 +49,307 @@ class UserEdit extends Component {
               <fieldset className="about-questions">
                 <p className="question">What is your favorite drink?</p>
                 <div className="edit-answers">
-                  <label>whiskey</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="drink"
-                    value="whiskey"
-                  />
-                  <label>beer</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="drink"
-                    value="beer"
-                  />
-                  <label>wine</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="drink"
-                    value="wine"
-                  />
-                  <label>other</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="drink"
-                    value="other"
-                  />
-                  <label>non-drinker</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="drink"
-                    value="non-drinker"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="drink"
+                      value="whiskey"
+                    />
+                    <label>whiskey</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="drink"
+                      value="beer"
+                    />
+                    <label>beer</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="drink"
+                      value="wine"
+                    />
+                    <label>wine</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="drink"
+                      value="other"
+                    />
+                    <label>other</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="drink"
+                      value="non-drinker"
+                    />
+                    <label>non-drinker</label>
+                  </div>
                 </div>
               </fieldset>
               <article className="about-questions">
                 <p className="question">What do you smoke?</p>
                 <div className="edit-answers">
-                  <label>cigarettes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="smoke"
-                    value="cigarettes"
-                  />
-                  <label>cigars</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="smoke"
-                    value="cigars"
-                  />
-                  <label>vape</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="smoke"
-                    value="vape"
-                  />
-                  <label>other</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="smoke"
-                    value="other"
-                  />
-                  <label>non-smoker</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="smoke"
-                    value="non-smoker"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="smoke"
+                      value="cigarettes"
+                    />
+                    <label>cigarettes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="smoke"
+                      value="cigars"
+                    />
+                    <label>cigars</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="smoke"
+                      value="vape"
+                    />
+                    <label>vape</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="smoke"
+                      value="other"
+                    />
+                    <label>other</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="smoke"
+                      value="non-smoker"
+                    />
+                    <label>non-smoker</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">How do you shave?</p>
                 <div className="edit-answers">
-                  <label>safety razor</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="shave"
-                    value="safety razor"
-                  />
-                  <label>straight razor</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="shave"
-                    value="straight razor"
-                  />
-                  <label>regular ass razor</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="shave"
-                    value="regular ass razor"
-                  />
-                  <label>other</label>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="shave"
+                      value="safety razor"
+                    />
+                    <label>safety razor</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="shave"
+                      value="straight razor"
+                    />
+                    <label>straight razor</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="shave"
+                      value="regular ass razor"
+                    />
+                    <label>regular ass razor</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Do you workout?</p>
                 <div className="edit-answers">
-                  <label>often</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="workout"
-                    value="often"
-                  />
-                  <label>sometimes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="workout"
-                    value="sometimes"
-                  />
-                  <label>never</label>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="workout"
+                      value="often"
+                    />
+                    <label>often</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="workout"
+                      value="sometimes"
+                    />
+                    <label>sometimes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="workout"
+                      value="never"
+                    />
+                    <label>never</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Do you have kids?</p>
                 <div className="edit-answers">
-                  <label>yes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="kids"
-                    value="yes"
-                  />
-                  <label>no</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="kids"
-                    value="no"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="kids"
+                      value="yes"
+                    />
+                    <label>yes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="kids"
+                      value="no"
+                    />
+                    <label>no</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Do you have pets?</p>
                 <div className="edit-answers">
-                  <label>dog</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="pets"
-                    value="dog"
-                  />
-                  <label>cat</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="pets"
-                    value="cat"
-                  />
-                  <label>lizard</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="pets"
-                    value="lizard"
-                  />
-                  <label>other</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="pets"
-                    value="other"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="pets"
+                      value="dog"
+                    />
+                    <label>dog</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="pets"
+                      value="cat"
+                    />
+                    <label>cat</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="pets"
+                      value="lizard"
+                    />
+                    <label>lizard</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="pets"
+                      value="other"
+                    />
+                    <label>other</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Do you like guns?</p>
                 <div className="edit-answers">
-                  <label>yes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="guns"
-                    value="yes"
-                  />
-                  <label>no</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="guns"
-                    value="no"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="guns"
+                      value="yes"
+                    />
+                    <label>yes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="guns"
+                      value="no"
+                    />
+                    <label>no</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Are you single?</p>
                 <div className="edit-answers">
-                  <label>yes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="single"
-                    value="yes"
-                  />
-                  <label>no</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="single"
-                    value="no"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="single"
+                      value="yes"
+                    />
+                    <label>yes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="single"
+                      value="no"
+                    />
+                    <label>no</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Do you play video games?</p>
                 <div className="edit-answers">
-                  <label>often</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="video games"
-                    value="often"
-                  />
-                  <label>sometimes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="video games"
-                    value="sometimes"
-                  />
-                  <label>never</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="video games"
-                    value="never"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="video games"
+                      value="often"
+                    />
+                    <label>often</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="video games"
+                      value="sometimes"
+                    />
+                    <label>sometimes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="video games"
+                      value="never"
+                    />
+                    <label>never</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">

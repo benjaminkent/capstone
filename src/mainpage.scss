@@ -167,9 +167,17 @@
     margin: 0.2rem;
     height: 17rem;
   }
+
+  .header .directions {
+    margin-right: 2.5rem;
+  }
 }
 
 @media (min-width: 1000px) {
+  .header .directions {
+    margin-right: 3rem;
+  }
+
   .main-page-content {
     display: flex;
     justify-content: center;
@@ -177,10 +185,6 @@
 
   .user-image-container {
     height: 100%;
-  }
-
-  .current-matches {
-    margin-bottom: 1rem;
   }
 
   .about-section-container {

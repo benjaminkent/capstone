@@ -3,9 +3,17 @@ p.edit {
 }
 
 .your-profile {
-  margin: 0.5rem 0 1rem 0;
+  margin: 0 0 1rem 0;
   padding: 0;
   color: $primary-black;
+}
+
+.back {
+  align-self: flex-start;
+  font-size: 2rem;
+  color: $primary-black;
+  margin-left: 1rem;
+  margin-top: 0;
 }
 
 .profile-name-container {

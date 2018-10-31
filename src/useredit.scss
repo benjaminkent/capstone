@@ -72,16 +72,16 @@ input.radio {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
   border-radius: 50%;
   width: 16px;
   height: 16px;
-
   border: 2px solid $primary-black;
   transition: 0.2s all linear;
   outline: none;
   margin-right: 5px;
   background-color: white;
+  position: relative;
+  top: 0.32rem;
 }
 
 input.radio:checked {

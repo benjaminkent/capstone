@@ -7,6 +7,7 @@
   padding: 0.5rem 0;
   color: $primary-black;
   box-shadow: 0px 0.5px 5px $primary-black;
+  z-index: 1001;
 
   .logo {
     width: 200px;
@@ -41,12 +42,12 @@
 
   .directions {
     display: flex;
-    padding-right: 1.5rem;
-    padding-top: 1.2rem;
+    margin-right: 1.7rem;
+    margin-top: 1.2rem;
   }
 
   .directions a:first-child {
-    padding-right: 1.2rem;
+    margin-right: 1.2rem;
   }
 
   .header-anchor {
