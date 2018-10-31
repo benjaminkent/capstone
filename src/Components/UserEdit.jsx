@@ -355,65 +355,79 @@ class UserEdit extends Component {
               <article className="about-questions">
                 <p className="question">Do you play board games?</p>
                 <div className="edit-answers">
-                  <label>often</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="board games"
-                    value="often"
-                  />
-                  <label>sometimes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="board games"
-                    value="sometimes"
-                  />
-                  <label>never</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="board games"
-                    value="never"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="board games"
+                      value="often"
+                    />
+                    <label>often</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="board games"
+                      value="sometimes"
+                    />
+                    <label>sometimes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="board games"
+                      value="never"
+                    />
+                    <label>never</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Do you like sports?</p>
                 <div className="edit-answers">
-                  <label>yes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="sports"
-                    value="yes"
-                  />
-                  <label>no</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="sports"
-                    value="no"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="sports"
+                      value="yes"
+                    />
+                    <label>yes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="sports"
+                      value="no"
+                    />
+                    <label>no</label>
+                  </div>
                 </div>
               </article>
               <article className="about-questions">
                 <p className="question">Do you like outdoor activities?</p>
                 <div className="edit-answers">
-                  <label>yes</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="outdoor activities"
-                    value="yes"
-                  />
-                  <label>no</label>
-                  <input
-                    className="radio"
-                    type="radio"
-                    name="outdoor activities"
-                    value="no"
-                  />
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="outdoor activities"
+                      value="yes"
+                    />
+                    <label>yes</label>
+                  </div>
+                  <div className="radio-edits">
+                    <input
+                      className="radio"
+                      type="radio"
+                      name="outdoor activities"
+                      value="no"
+                    />
+                    <label>no</label>
+                  </div>
                 </div>
               </article>
             </form>
