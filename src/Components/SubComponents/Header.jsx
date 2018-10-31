@@ -7,23 +7,29 @@ class Header extends Component {
       <>
         <header className="header">
           <div className="logo">
-            <img
-              src="./images/wolf-logo.png"
-              className="logo-image"
-              alt="wolf logo"
-            />
+            <Link to="/">
+              <img
+                src="./images/wolf-logo.png"
+                className="logo-image"
+                alt="wolf logo"
+              />
+            </Link>
             <div className="logo-words-container">
               <h1 className="logo-upper">Find a Bro</h1>
               <p className="logo-lower">Expand Your Wolfpack</p>
             </div>
           </div>
           <div className="directions">
-            <a href="#" title="About Find a Bro" className="header-anchor">
+            <Link to="/" title="About Find a Bro" className="header-anchor">
               <i className="fas fa-question-circle" />
-            </a>
-            <a href="#" title="Edit Your Profile" className="header-anchor">
+            </Link>
+            <Link
+              to="/edit-profile"
+              title="Edit Your Profile"
+              className="header-anchor"
+            >
               <i className="fas fa-user" />
-            </a>
+            </Link>
           </div>
         </header>
       </>

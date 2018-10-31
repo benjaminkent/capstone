@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
+import ScrollToTop from './SubComponents/ScrollToTop'
+
 class MainPage extends Component {
   render() {
     return (
       <>
+        <ScrollToTop />
         <div className="main-page-content">
           <section className="user-section">
             <div className="user-image-container">

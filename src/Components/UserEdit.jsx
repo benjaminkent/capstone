@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
+import ScrollToTop from './SubComponents/ScrollToTop'
+
 class UserEdit extends Component {
   render() {
     return (
       <>
+        <ScrollToTop />
         <div className="main-page-content">
           <section className="user-section">
             <div className="user-image-container">
@@ -13,8 +16,14 @@ class UserEdit extends Component {
                 <i className="fas fa-exclamation-circle notification" />
               </div>
               <div className="cancel-edit">
-                <i class="fas fa-arrow-left cancel-edit-back" />
-                <p>Cancel Edit</p>
+                <Link
+                  className="link-no-underline cancel-edit"
+                  to="/"
+                  title="Back to the main screen"
+                >
+                  <i class="fas fa-arrow-left cancel-edit-back" />
+                  <p>Cancel Edit</p>
+                </Link>
               </div>
               <div className="edit-name">
                 <input
@@ -386,7 +395,9 @@ class UserEdit extends Component {
               </div>
             </div>
             <div>
-              <button className="submit">Submit Profile</button>
+              <Link className="link-no-underline" to="/">
+                <button className="submit">Submit Profile</button>
+              </Link>
             </div>
           </section>
         </div>
