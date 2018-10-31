@@ -1,0 +1,83 @@
+.your-profile {
+  margin: 0.5rem 0 1rem 0;
+  padding: 0;
+  color: $primary-black;
+}
+
+.profile-name-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: $primary-black;
+  font-weight: 300;
+  font-family: $arvo;
+  font-size: 1.3rem;
+}
+
+.profile-name {
+  margin: 0 0 0 2rem;
+}
+
+.user-edit {
+  display: flex;
+}
+
+.user-edit p {
+  margin: none;
+  font-family: $poppins;
+  font-size: 1.1rem;
+  margin-top: 0;
+  color: $primary-black;
+}
+
+.edit-arrow {
+  margin-top: 0.25rem;
+  margin-right: 2rem;
+  padding-left: 0.3rem;
+  color: $primary-black;
+}
+
+.profile-image-container {
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 700px) {
+  .edit-arrow {
+    margin-right: 11rem;
+  }
+
+  .profile-name {
+    margin-left: 11rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .edit-arrow {
+    margin-right: 1rem;
+  }
+
+  .profile-name {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .edit-arrow {
+    margin-right: 3rem;
+  }
+
+  .profile-name {
+    margin-left: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .edit-arrow {
+    margin-right: 4rem;
+  }
+
+  .profile-name {
+    margin-left: 4rem;
+  }
+}

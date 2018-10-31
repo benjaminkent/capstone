@@ -18,7 +18,7 @@ class UserEdit extends Component {
               <div className="cancel-edit">
                 <Link
                   className="link-no-underline cancel-edit"
-                  to="/"
+                  to="/your-profile"
                   title="Back to the main screen"
                 >
                   <i class="fas fa-arrow-left cancel-edit-back" />

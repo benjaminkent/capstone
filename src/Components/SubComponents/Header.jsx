@@ -24,7 +24,7 @@ class Header extends Component {
               <i className="fas fa-question-circle" />
             </Link>
             <Link
-              to="/edit-profile"
+              to="/your-profile"
               title="Edit Your Profile"
               className="header-anchor"
             >
