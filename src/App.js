@@ -17,8 +17,8 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/" component={MainPage} />
-            <Route path="/edit-profile" component={UserEdit} />
-            <Route path="/your-profile" component={UserProfile} />
+            <Route path="/edit" component={UserEdit} />
+            <Route path="/profile" component={UserProfile} />
           </Switch>
           <Footer />
         </>

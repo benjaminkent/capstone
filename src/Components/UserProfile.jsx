@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 import ScrollToTop from './SubComponents/ScrollToTop'
 
@@ -18,12 +18,12 @@ class UserProfile extends Component {
               <h2 className="your-profile">Your Profile</h2>
               <div className="profile-name-container">
                 <p className="profile-name">Steve</p>
-                <Link className="link-no-underline" to="edit-profile">
-                  <div className="user-edit">
+                <div className="user-edit">
+                  <Link className="link-no-underline" to="/edit">
                     <p className="edit">Edit Profile</p>
-                    <i class="fas fa-arrow-right edit-arrow" />
-                  </div>
-                </Link>
+                  </Link>
+                  <i class="fas fa-arrow-right edit-arrow" />
+                </div>
               </div>
               <div className="profile-image-container">
                 <img

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 import ScrollToTop from './SubComponents/ScrollToTop'
 
@@ -14,7 +14,7 @@ class UserEdit extends Component {
               <div className="cancel-edit">
                 <Link
                   className="link-no-underline cancel-edit"
-                  to="/your-profile"
+                  to="/profile"
                   title="Back to the main screen"
                 >
                   <i class="fas fa-arrow-left cancel-edit-back" />
@@ -391,7 +391,7 @@ class UserEdit extends Component {
               </div>
             </div>
             <div>
-              <Link className="link-no-underline" to="/your-profile">
+              <Link className="link-no-underline" to="profile">
                 <button className="submit">Submit Profile</button>
               </Link>
             </div>

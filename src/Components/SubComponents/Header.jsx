@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 class Header extends Component {
   render() {
@@ -24,7 +24,7 @@ class Header extends Component {
               <i className="fas fa-question-circle" />
             </Link>
             <Link
-              to="/your-profile"
+              to="/profile"
               title="Edit Your Profile"
               className="header-anchor"
             >
