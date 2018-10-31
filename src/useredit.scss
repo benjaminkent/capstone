@@ -77,11 +77,11 @@ input.radio {
   height: 16px;
   border: 2px solid $primary-black;
   transition: 0.2s all linear;
-  outline: none;
   margin-right: 5px;
   background-color: white;
   position: relative;
   top: 0.32rem;
+  outline: none;
 }
 
 input.radio:checked {
