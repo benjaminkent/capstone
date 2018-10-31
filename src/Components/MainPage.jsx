@@ -22,7 +22,7 @@ class MainPage extends Component {
               <div className="image-container">
                 <img
                   className="user-image"
-                  src="./images/user-image.jpg"
+                  src="./images/shuffle.jpeg"
                   alt="user"
                 />
               </div>

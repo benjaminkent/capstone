@@ -17,7 +17,7 @@ class UserProfile extends Component {
               </div>
               <h2 className="your-profile">Your Profile</h2>
               <div className="profile-name-container">
-                <p className="profile-name">Ben</p>
+                <p className="profile-name">Steve</p>
                 <Link className="link-no-underline" to="edit-profile">
                   <div className="user-edit">
                     <p className="edit">Edit Profile</p>

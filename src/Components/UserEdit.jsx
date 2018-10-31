@@ -391,7 +391,7 @@ class UserEdit extends Component {
               </div>
             </div>
             <div>
-              <Link className="link-no-underline" to="/">
+              <Link className="link-no-underline" to="/your-profile">
                 <button className="submit">Submit Profile</button>
               </Link>
             </div>
