@@ -13,8 +13,7 @@ class AboutPage extends Component {
               backgroundImage: `url(${imgURL})`
             }}
           >
-            <h1 className="about-page-statement">About Find a Bro</h1>
-            <h2 className="about-main-content">jibber jabber opening line</h2>
+            <h1>About Find a Bro</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
               doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis

@@ -1,17 +1,23 @@
-.about-page-statement {
-  margin: 0;
-  padding-top: 5rem;
-}
-
-.about-page-words {
-  opacity: 1;
-}
-
 .about-page-main {
   background-size: 50vh;
-  background-position: left -10vw bottom -10vw;
+  background-position: left -10vw bottom 0vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
   // background-color: #fff0c9;
   background-color: #d6d6d6;
+}
+
+.about-page-main h1 {
+  margin: 0;
+  padding-top: 5.5rem;
+  text-align: center;
+  color: $primary-black;
+  font-family: $arvo;
+}
+
+.about-page-main p {
+  padding: 1.5rem;
+  color: $primary-black;
+  font-family: $poppins;
+  margin: 0;
 }
