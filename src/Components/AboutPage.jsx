@@ -15,67 +15,31 @@ class AboutPage extends Component {
           >
             <h1>About Find a Bro</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
               doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
               excepturi labore assumenda ratione cumque necessitatibus corporis
               natus nesciunt blanditiis eligendi?
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
               doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
               excepturi labore assumenda ratione cumque necessitatibus corporis
               natus nesciunt blanditiis eligendi?
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
               doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
               excepturi labore assumenda ratione cumque necessitatibus corporis
               natus nesciunt blanditiis eligendi?
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
               doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
               excepturi labore assumenda ratione cumque necessitatibus corporis
               natus nesciunt blanditiis eligendi?
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
-              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
-              excepturi labore assumenda ratione cumque necessitatibus corporis
-              natus nesciunt blanditiis eligendi?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
-              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
-              excepturi labore assumenda ratione cumque necessitatibus corporis
-              natus nesciunt blanditiis eligendi?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
-              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
-              excepturi labore assumenda ratione cumque necessitatibus corporis
-              natus nesciunt blanditiis eligendi?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
-              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
-              excepturi labore assumenda ratione cumque necessitatibus corporis
-              natus nesciunt blanditiis eligendi?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
-              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
-              excepturi labore assumenda ratione cumque necessitatibus corporis
-              natus nesciunt blanditiis eligendi?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
-              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
-              excepturi labore assumenda ratione cumque necessitatibus corporis
-              natus nesciunt blanditiis eligendi?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
               doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
               excepturi labore assumenda ratione cumque necessitatibus corporis
               natus nesciunt blanditiis eligendi?
