@@ -3,9 +3,13 @@
   padding-top: 5rem;
 }
 
-.about-page-main {
-}
-
 .about-page-words {
   opacity: 1;
+}
+
+.about-page-main {
+  background-size: 50vh;
+  background-position: left -10vw bottom -10vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

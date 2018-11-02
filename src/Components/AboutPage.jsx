@@ -8,16 +8,80 @@ class AboutPage extends Component {
       <>
         <section>
           <h1 className="about-page-statement">About Find a Bro</h1>
-          <main
+          <div
             className="about-page-main"
             style={{
-              backgroundImage: `url(${imgURL})`,
-              paddingBottom: '20rem',
-              backgroundSize: 'cover'
+              backgroundImage: `url(${imgURL})`
             }}
           >
-            <h2>jibber jabber opening line</h2>
-          </main>
+            <h2 className="about-main-content">jibber jabber opening line</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum
+              doloribus, fugiat explicabo a ducimus tenetur ut sit veritatis
+              excepturi labore assumenda ratione cumque necessitatibus corporis
+              natus nesciunt blanditiis eligendi?
+            </p>
+          </div>
         </section>
       </>
     )
