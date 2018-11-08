@@ -83,27 +83,27 @@ class MainPage extends Component {
               </article>
               <article className="about-questions">
                 <p>Do you like guns?</p>
-                <p>Yes</p>
+                <p>{this.state.guns}</p>
               </article>
               <article className="about-questions">
                 <p>Are you single?</p>
-                <p>No</p>
+                <p>{this.state.single}</p>
               </article>
               <article className="about-questions">
                 <p>Do you play video games?</p>
-                <p>Sometimes</p>
+                <p>{this.state.videoGames}</p>
               </article>
               <article className="about-questions">
                 <p>Do you play board games?</p>
-                <p>No</p>
+                <p>{this.state.boardGames}</p>
               </article>
               <article className="about-questions">
                 <p>Do you like sports?</p>
-                <p>Yes</p>
+                <p>{this.state.sports}</p>
               </article>
               <article className="about-questions">
                 <p>Do you like outdoor activities?</p>
-                <p>Yes</p>
+                <p>{this.state.outdoor}</p>
               </article>
             </div>
           </section>
