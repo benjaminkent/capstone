@@ -3,6 +3,23 @@ import React, { Component } from 'react'
 import ScrollToTop from './SubComponents/ScrollToTop'
 
 class MainPage extends Component {
+  state = {
+    name: 'Ben',
+    match: '90',
+    drink: 'Whiskey, Beer, Wine',
+    smoke: 'Sometimes',
+    smokeType: 'Cigars',
+    shave: 'Safety Razor',
+    workout: 'Often',
+    kids: 'No',
+    pets: 'Dog',
+    guns: 'Yes',
+    single: 'No',
+    videoGames: 'Sometimes',
+    boardGames: 'No',
+    sports: 'Yes',
+    outdoor: 'Yes'
+  }
   render() {
     return (
       <>
@@ -15,8 +32,8 @@ class MainPage extends Component {
                 <i className="fas fa-exclamation-circle notification" />
               </div>
               <div className="name">
-                <p>Ben</p>
-                <p>90% Match</p>
+                <p>{this.state.name}</p>
+                <p>{this.state.match}% Match</p>
               </div>
               <div className="image-container">
                 <img
@@ -34,35 +51,35 @@ class MainPage extends Component {
 
           <section className="about-section">
             <div className="about-section-container">
-              <h2 className="about-user">About Ben</h2>
+              <h2 className="about-user">About {this.state.name}</h2>
               <div className="about-underline" />
               <article className="about-questions">
                 <p>What do you like to drink?</p>
-                <p>Whiskey, Beer, Wine</p>
+                <p>{this.state.drink}</p>
               </article>
               <article className="about-questions">
                 <p>Do you smoke?</p>
-                <p>Sometimes</p>
+                <p>{this.state.smoke}</p>
               </article>
               <article className="about-questions">
                 <p>What do you smoke?</p>
-                <p>Cigars</p>
+                <p>{this.state.smokeType}</p>
               </article>
               <article className="about-questions">
                 <p>How do you shave?</p>
-                <p>Safety Razor</p>
+                <p>{this.state.shave}</p>
               </article>
               <article className="about-questions">
                 <p>Do you workout?</p>
-                <p>Often</p>
+                <p>{this.state.workout}</p>
               </article>
               <article className="about-questions">
                 <p>Do you have kids?</p>
-                <p>No</p>
+                <p>{this.state.kids}</p>
               </article>
               <article className="about-questions">
                 <p>Do you have pets?</p>
-                <p>Dog</p>
+                <p>{this.state.pets}</p>
               </article>
               <article className="about-questions">
                 <p>Do you like guns?</p>
