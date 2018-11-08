@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 import ScrollToTop from './SubComponents/ScrollToTop'
 

@@ -21,11 +21,18 @@ class UserEdit extends Component {
                   <p>Cancel Edit</p>
                 </Link>
               </div>
-              <div className="edit-name">
+              <div className="edit-name-location">
                 <input
-                  placeholder="Enter First Name"
+                  placeholder="First Name"
                   type="text"
                   name="display-name"
+                />
+              </div>
+              <div className="edit-name-location">
+                <input
+                  placeholder="Location"
+                  type="text"
+                  name="display-location"
                 />
               </div>
               <div className="edit-image-container">

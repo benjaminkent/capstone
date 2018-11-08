@@ -27,8 +27,8 @@ label {
   padding-right: 0.3rem;
 }
 
-.edit-name input {
-  margin: 1rem auto;
+.edit-name-location input {
+  margin: 0.5rem auto;
   color: $primary-black;
   font-weight: 300;
   font-family: $arvo;
@@ -38,11 +38,11 @@ label {
   border-width: 0.5px;
 }
 
-.edit-name input:focus {
+.edit-name-location input:focus {
   outline: none;
 }
 
-.edit-name input::placeholder {
+.edit-name-location input::placeholder {
   color: #afafaf;
 }
 
