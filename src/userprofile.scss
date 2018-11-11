@@ -2,12 +2,6 @@ p.edit {
   margin: 0;
 }
 
-.your-profile {
-  margin: 0 0 1rem 0;
-  padding: 0;
-  color: $primary-black;
-}
-
 .back {
   align-self: flex-start;
   font-size: 2rem;
@@ -24,7 +18,12 @@ p.edit {
   color: $primary-black;
   font-weight: 300;
   font-family: $arvo;
-  font-size: 1.3rem;
+  font-size: 1rem;
+}
+
+.profile-name-locale p {
+  margin: 0;
+  padding-left: 2rem;
 }
 
 .profile-name {
@@ -60,7 +59,7 @@ p.edit {
     margin-right: 11rem;
   }
 
-  .profile-name {
+  div.profile-name-locale {
     margin-left: 11rem;
   }
 }
@@ -70,8 +69,8 @@ p.edit {
     margin-right: 1rem;
   }
 
-  .profile-name {
-    margin-left: 1rem;
+  div.profile-name-locale {
+    margin-left: 0.5rem;
   }
 }
 
@@ -80,8 +79,8 @@ p.edit {
     margin-right: 3rem;
   }
 
-  .profile-name {
-    margin-left: 3rem;
+  div.profile-name-locale {
+    margin-left: 2rem;
   }
 }
 
@@ -90,7 +89,7 @@ p.edit {
     margin-right: 4rem;
   }
 
-  .profile-name {
-    margin-left: 4rem;
+  div.profile-name-locale {
+    margin-left: 3rem;
   }
 }

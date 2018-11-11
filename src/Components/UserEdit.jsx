@@ -266,9 +266,9 @@ class UserEdit extends Component {
                       className="radio"
                       type="radio"
                       name="pets"
-                      value="lizard"
+                      value="reptile"
                     />
-                    <label>lizard</label>
+                    <label>reptile</label>
                   </div>
                   <div className="radio-edits">
                     <input

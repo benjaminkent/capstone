@@ -19,7 +19,10 @@ class UserProfile extends Component {
                 <i className="fas fa-caret-left back" />
               </Link>
               <div className="profile-name-container">
-                <p className="profile-name">Steve</p>
+                <div className="profile-name-locale">
+                  <p className="profile-name">Sample</p>
+                  <p>St. Pete, FL</p>
+                </div>
                 <div className="user-edit">
                   <Link to="/edit" className="link-no-underline">
                     <p className="edit">Edit Profile</p>
@@ -39,7 +42,7 @@ class UserProfile extends Component {
 
           <section className="about-section">
             <div className="about-section-container">
-              <h2 className="about-user">About Ben</h2>
+              <h2 className="about-user">About Sample</h2>
               <div className="about-underline" />
               <article className="about-questions">
                 <p>What do you like to drink?</p>

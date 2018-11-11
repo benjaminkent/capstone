@@ -4,8 +4,9 @@ import ScrollToTop from './SubComponents/ScrollToTop'
 
 class MainPage extends Component {
   state = {
-    name: 'Ben',
-    match: '90',
+    name: 'Sample Bro',
+    location: 'St. Pete, FL',
+    match: '100',
     drink: 'Whiskey, Beer, Wine',
     smoke: 'Sometimes',
     smokeType: 'Cigars',
@@ -20,6 +21,7 @@ class MainPage extends Component {
     sports: 'Yes',
     outdoor: 'Yes'
   }
+
   render() {
     return (
       <>
@@ -32,8 +34,11 @@ class MainPage extends Component {
                 <i className="fas fa-exclamation-circle notification" />
               </div>
               <div className="name">
-                <p>{this.state.name}</p>
-                <p>{this.state.match}% Match</p>
+                <div className="name-locale">
+                  <p>{this.state.name}</p>
+                  <p>{this.state.location}</p>
+                </div>
+                <p className="match">{this.state.match}% Match</p>
               </div>
               <div className="image-container">
                 <img
